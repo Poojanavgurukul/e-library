@@ -4,6 +4,9 @@ import './App.css';
 import Login from './AdminLogin/Loginpage.js';
 import Userlogin from './UserLogin/UserLogin.js'
 import Adminservice from './Adminservice/Adminservice.js';
+import Usersignup from './Signup/Usersignup.js';
+import Deletebook from './Delete/Deletebook.js';
+import Addbook from './Add/Addbook.js';
 
 class App extends Component {
   render() {                                      
@@ -12,7 +15,10 @@ class App extends Component {
       <Home /> 
       <Login />
       <Userlogin />
-      <Adminservice />  
+      <Adminservice /> 
+      <Usersignup /> 
+      <Deletebook />
+      <Addbook />
       </div>
     );
   }
