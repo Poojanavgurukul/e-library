@@ -1,0 +1,32 @@
+.heading{
+    width:100%;
+    height:100px;
+    background-color:#63b2d6;
+}
+
+.headtext{
+    display: inline-block;
+    margin: 20px;
+    padding:10px;
+    font-size: 50px;
+}
+
+.image{
+    background-image: url('../image/background.jpg');
+    width:100%;
+    height:600px;
+    background-size: cover;
+    position:relative;
+}
+i{
+    font-size:60px;
+}
+.btn{
+    margin: 20px;
+    margin-top: 400px;
+    width:150px;
+    height:50px;
+    font-size:25px;
+    padding:5px;
+    outline:none;
+}
